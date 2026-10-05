@@ -1,6 +1,6 @@
 cask "refill" do
-  version "0.2.0"
-  sha256 "aaafd9d316bd2390b8065829a9de8d40f8c7576686636809824246278886c549"
+  version "0.2.1"
+  sha256 "c85ae41d86a6fee7f17e2964ac1c24014d0e7a0200544239541c1d8864006c54"
 
   url "https://github.com/StepanBlaha/Refill/releases/download/v#{version}/Refill.zip"
   name "Refill"
