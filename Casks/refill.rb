@@ -1,8 +1,8 @@
 cask "refill" do
-  version "0.1.1"
-  sha256 "71ea976a6003d86dbaae31e67ee1f3a8e55e257391c358f2e15f7ff2d6b5f2fd"
+  version "0.2.0"
+  sha256 "aaafd9d316bd2390b8065829a9de8d40f8c7576686636809824246278886c549"
 
-  url "https://github.com/StepanBlaha/Refill/releases/download/v#{version}/Refill.dmg"
+  url "https://github.com/StepanBlaha/Refill/releases/download/v#{version}/Refill.zip"
   name "Refill"
   desc "Menu bar app that watches your AI subscription limits"
   homepage "https://stepanblaha.github.io/Refill/"
