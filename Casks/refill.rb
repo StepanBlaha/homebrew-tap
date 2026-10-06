@@ -1,6 +1,6 @@
 cask "refill" do
-  version "0.3.1"
-  sha256 "829d66725e28eb75746ecc972698de35b113c951a5ba897dbcf2964aa8b0893b"
+  version "0.3.2"
+  sha256 "dade7bbb78169afdbbde1e8c69e5559441d61f3c512a07dddabfc4090211c03d"
 
   url "https://github.com/StepanBlaha/Refill/releases/download/v#{version}/Refill.zip"
   name "Refill"
@@ -16,10 +16,12 @@ cask "refill" do
 
   app "Refill.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Refill.app"],
-                   must_succeed: false
+  postflight_steps do
+    on_macos do
+      run "/usr/bin/xattr",
+          args: ["-dr", "com.apple.quarantine", "{{appdir}}/Refill.app"],
+          must_succeed: false
+    end
   end
 
   zap trash: [
