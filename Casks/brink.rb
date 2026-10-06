@@ -1,6 +1,6 @@
 cask "brink" do
-  version "0.10.0"
-  sha256 "3ac72b59fde459118d6e4fcc097cfa57f4af33fe7d1387c525db03b3b4e355bb"
+  version "0.11.2"
+  sha256 "987877537cdf5241e9045d23302b5afbd690c461291153791a32f008ae550c86"
 
   url "https://github.com/StepanBlaha/Brink/releases/download/v#{version}/Brink-#{version}.zip"
   name "Brink"
