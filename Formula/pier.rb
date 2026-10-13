@@ -1,10 +1,10 @@
-# Homebrew formula template: packaging/release.sh fills 0.1.1 / bb85e2bddd94ca1fa7e99f1821f3f5dfd890bd0ba09f4385e4b950375ac85a45 and writes
+# Homebrew formula template: packaging/release.sh fills 0.1.2 / f2a57954f5b50774777955e3777e13cdf2b3a84c62991549fe4fb82a5943c011 and writes
 # Formula/pier.rb into the StepanBlaha/homebrew-tap repo.
 class Pier < Formula
   desc "See what's running on localhost and which project it belongs to"
   homepage "https://github.com/StepanBlaha/pier"
-  url "https://github.com/StepanBlaha/pier/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "bb85e2bddd94ca1fa7e99f1821f3f5dfd890bd0ba09f4385e4b950375ac85a45"
+  url "https://github.com/StepanBlaha/pier/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "f2a57954f5b50774777955e3777e13cdf2b3a84c62991549fe4fb82a5943c011"
   license "MIT"
   head "https://github.com/StepanBlaha/pier.git", branch: "main"
 
